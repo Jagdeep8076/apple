@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'SFPRODISPLAYBLACKITALIC';
+    src: url(./img/SFPRODISPLAYBLACKITALIC.OTF)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden; 
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:-webkit-sticky;
+    background-color: #fff;
+    gap: 20px;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+   font-weight: 300px;
+    
+}
+#center{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-image : url(./img/apple\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#center h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+#center h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+#center button{
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+#center button{
+    background-color: royalblue;
+    color: black;
+    padding: 10px 24px;
+   font-size: 20px;
+   font-weight: 500;
+
+}
+
+#center button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#links{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-image : url(./img/apple2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#links h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+#links h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+}
+#links button{
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+#links button{
+    background-color: royalblue;
+    color: black;
+    padding: 10px 24px;
+   font-size: 20px;
+   font-weight: 500;
+
+}
+
+#links button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
